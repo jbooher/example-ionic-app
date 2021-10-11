@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="end" (click)="dismiss()">
+      <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label class="ion-text-wrap">
+      <h2>
+        {{ person?.name }}
+      </h2>
+    </ion-label>
+  </ion-item>
+</ion-content>
+
